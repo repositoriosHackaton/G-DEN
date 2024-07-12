@@ -566,7 +566,7 @@ base_datos_autismo = {
 }
     }
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
 
 
@@ -902,3 +902,5 @@ def main():
             break
         else:
             print("Opción no válida. Por favor, seleccione una opción válida.")
+
+            #
