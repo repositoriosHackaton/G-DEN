@@ -1,0 +1,89 @@
+{
+  "dataset_info": {
+    "name": "autism_classification",
+    "description": "Dataset for classifying autism.",
+    "version": "1.0.0",
+    "data_dir": "",
+    "file_format": ["png", "jpg"],
+    "features": {
+      "image": {
+        "shape": [128, 128, 1],
+        "dtype": "uint8"
+      },
+      "label": {
+        "shape": [],
+        "dtype": "int64",
+        "num_classes": 2
+      }
+    },
+    "supervised_keys": ["image", "label"],
+    "splits": {
+      "train": {
+        "num_examples": 40
+      },
+      "test": {
+        "num_examples": 5
+      }
+    }
+  },
+  "train": [
+    { "image_path": "Images/autism1.png", "label": 1 },
+    { "image_path": "Images/autism2.png", "label": 1 },
+    { "image_path": "Images/autism3.png", "label": 1 },
+    { "image_path": "Images/autism4.png", "label": 1 },
+    { "image_path": "Images/autism5.png", "label": 1 },
+    { "image_path": "Images/autism6.png", "label": 1 },
+    { "image_path": "Images/autism7.png", "label": 1 },
+    { "image_path": "Images/autism8.png", "label": 1 },
+    { "image_path": "Images/autism9.png", "label": 1 },
+    { "image_path": "Images/autism12.png", "label": 1 },
+    { "image_path": "Images/autism13.png", "label": 1 },
+    { "image_path": "Images/autism14.png", "label": 1 },
+    { "image_path": "Images/autism15.png", "label": 1 },
+    { "image_path": "Images/autism16.png", "label": 1 },
+    { "image_path": "Images/autism17.png", "label": 1 },
+    { "image_path": "Images/autism18.png", "label": 1 },
+    { "image_path": "Images/autism19.png", "label": 1 },
+    { "image_path": "Images/autism20.png", "label": 1 },
+    { "image_path": "Images/autism21.png", "label": 1 },
+    { "image_path": "Images/autism22.png", "label": 1 },
+    { "image_path": "Images/autism23.png", "label": 1 },
+    { "image_path": "Images/autism24.png", "label": 1 },
+    { "image_path": "Images/autism25.png", "label": 1 },
+    { "image_path": "Images/autism26.png", "label": 1 },
+    { "image_path": "Images/neurotipica1.png", "label": 0 },
+    { "image_path": "Images/neurotipica2.png", "label": 0 },
+    { "image_path": "Images/neurotipica3.png", "label": 0 },
+    { "image_path": "Images/neurotipica4.png", "label": 0 },
+    { "image_path": "Images/neurotipica5.png", "label": 0 },
+    { "image_path": "Images/neurotipica6.png", "label": 0 },
+    { "image_path": "Images/neurotipica7.png", "label": 0 },
+    { "image_path": "Images/neurotipica8.png", "label": 0 },
+    { "image_path": "Images/neurotipica9.png", "label": 0 },
+    { "image_path": "Images/neurotipica10.png", "label": 0 },
+    { "image_path": "Images/neurotipica11.png", "label": 0 },
+    { "image_path": "Images/neurotipica12.png", "label": 0 },
+    { "image_path": "Images/neurotipica13.png", "label": 0 },
+    { "image_path": "Images/neurotipica14.png", "label": 0 },
+    { "image_path": "Images/neurotipica15.png", "label": 0 },
+    { "image_path": "Images/neurotipica16.png", "label": 0 },
+    { "image_path": "Images/neurotipica17.png", "label": 0 },
+    { "image_path": "Images/neurotipica18.png", "label": 0 },
+    { "image_path": "Images/neurotipica19.png", "label": 0 },
+    { "image_path": "Images/neurotipica20.png", "label": 0 },
+    { "image_path": "Images/neurotipica21.png", "label": 0 },
+    { "image_path": "Images/neurotipica22.png", "label": 0 },
+    { "image_path": "Images/neurotipica23.png", "label": 0 },
+    { "image_path": "Images/neurotipica24.png", "label": 0 },
+    { "image_path": "Images/neurotipica25.png", "label": 0 },
+    { "image_path": "Images/neurotipica26.png", "label": 0 },
+    { "image_path": "Images/neurotipica27.png", "label": 0 },
+    { "image_path": "Images/neurotipica28.png", "label": 0 },
+    { "image_path": "Images/neurotipica29.png", "label": 0 },
+    { "image_path": "Images/neurotipica30.png", "label": 0 }
+  ],
+  "test": [
+    { "image_path": "Images/autism12.png", "label": 1}
+
+  ]
+}
