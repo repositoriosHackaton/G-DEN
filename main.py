@@ -25,7 +25,7 @@ def cargar_y_normalizar(ruta, etiqueta):
     img = tf.image.convert_image_dtype(img, tf.float32)  # Convierte la imagen a tipo de dato float32
     img = tf.image.resize(img, [128, 128])  # Redimensiona la imagen a 128x128 píxeles
     img /= 255.0  # Normaliza los valores de los píxeles a un rango de [0, 1]
-    return img, etiqueta  # Devuelve la imagen procesada y su etiqueta
+    return img, etiqueta  # Devuelve la imagen procesada y su etiqueta#
 
 # Construye las rutas completas a los archivos de imagen
 def construir_ruta_completa(imagen_path):
